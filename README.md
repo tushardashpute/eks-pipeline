@@ -5,6 +5,11 @@ Pipeline to do deployment on EKS cluster using jenkins, based on the envornment 
 Assumptions :
 
 You have already eks cluster and jenkins installed.
+On jenkins server install git, kubectl .
+
+
+[root@ip-172-31-24-61 eks-deploy]# cp /root/bin/kubectl /usr/bin
+[root@ip-172-31-24-61 eks-deploy]# cp /root/bin/kubectl /usr/local//bin
 
 Steps 1: 
 =======
