@@ -50,7 +50,7 @@ pipeline {
         script {
             sh '''kubectl apply -f deployment.yml 
                   kubectl apply -f service.yml
-                  kubectl get deploy service
+                  kubectl get all
                 '''
         }
         }
